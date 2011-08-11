@@ -1,0 +1,8 @@
+Oracle Data Overview
+--------------------
+Author: Ryan Boucher
+
+
+This script is not self sufficient and should be run inside rspec and with Sequel database access.
+
+This script is designed be run against a data-set that is as close to production, if not production. The purpose is to dump out a plain HTML document containin an overview of every column and table in the schema. The goal is to provide developers and testers with additional information to inform implementation decisions and testing scope.
